@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-family: 'Bricolage Grotesque';
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh ;
+    background-color: black;
+    position: relative ;
+}
+
+
+.container{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items:center ; 
+}
+
+.container .login{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.container .login h2{
+
+    font-size: 2em ;
+    color: aliceblue;
+}
+
+.container .login .inputBX{
+    position: relative;
+    width: 100% ;
+}
+
+.container .login .inputBX input{
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    background:transparent;
+    font-size: 1.2em;
+    border: 2px solid aliceblue;
+    border-radius: 40px ;
+    color: white;
+    box-shadow: none;
+    outline: none;
+
+}
+
+
+.container .login .inputBX input[type="submit"]{
+
+    background: linear-gradient(45deg,red,yellow);
+    border: none;
+    cursor: pointer;
+
+}
+
+.container .login .links{
+
+    padding: 0 20px;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.container .login .links a{
+    color: white;
+    text-decoration: none;
+
+}
